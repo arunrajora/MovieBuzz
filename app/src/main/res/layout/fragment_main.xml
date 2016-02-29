@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/frame_layout_movie"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.arun.buzz.movie.app.moviebuzz.MainActivityFragment"
+             tools:showIn="@layout/activity_main">
+<android.support.v7.widget.RecyclerView
+	android:scrollbars="vertical"
+	android:id="@+id/movies_grid_view"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"/>
+
+</FrameLayout>
