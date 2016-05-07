@@ -1,0 +1,28 @@
+<FrameLayout
+			 xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:orientation="vertical"
+			 android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".movie_list_fragment"
+			android:background="@color/cardview_dark_background">
+			<android.support.v7.widget.RecyclerView
+				android:id="@+id/movie_list_recycler_view"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+			/>
+			<TextView
+				android:padding="@dimen/details_title_padding"
+				android:id="@+id/sort_by_text_view"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:text="SORT BY:"
+				android:textColor="#FFFFFF"
+				android:textAlignment="center"
+			    android:textColorHighlight="#3f3ff3"
+			    android:shadowColor="#000000"
+			    android:shadowRadius="2"
+			    android:shadowDx="0.8"
+			    android:shadowDy="1.2"
+			/>
+</FrameLayout>

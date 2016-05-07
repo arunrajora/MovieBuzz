@@ -5,6 +5,7 @@
 	<dimen name="fab_margin">16dp</dimen>
 	<dimen name="movie_poster_height">300dp</dimen>
 	<dimen name="movie_poster_width">200dp</dimen>
+	<dimen name="details_master_view_left">400dp</dimen>
 	<dimen name="backdrop_poster_height">200dp</dimen>
 	<dimen name="details_view_col1">100dp</dimen>
 	<dimen name="details_view_poster_height">210dp</dimen>
@@ -13,5 +14,9 @@
 	<dimen name="details_view_poster_description">10dp</dimen>
 	<dimen name="details_view_card">5dp</dimen>
 	<dimen name="details_text_view_height">0dp</dimen>
-	<dimen name="text_size_small">30sp</dimen>
+	<dimen name="poster_default_padding">10dp</dimen>
+	<dimen name="details_text">20sp</dimen>
+	<dimen name="details_title_padding">10dp</dimen>
+	<dimen name="details_text_synopsis">15sp</dimen>
+	<dimen name="recycler_view_padding">30dp</dimen>
 </resources>
